@@ -12,11 +12,11 @@ jobs:
    steps:
    - uses: actions/checkout@v3
 
-   - name: Set up JDK 1.8
+   - name: Set up JDK
      uses: actions/setup-java@v4
      with:
        distribution: 'adopt'
-       java-version: 1.8
+       java-version: '21'
 
    - name: Setup Dart SDK
      uses: dart-lang/setup-dart@v1
