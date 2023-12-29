@@ -1,6 +1,6 @@
 {
-    "name": "Chuck-Jokes",
-    "short_name": "Chuck-Jokes",
+    "name": "Chuck Jokes",
+    "short_name": "Chuck Jokes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
