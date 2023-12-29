@@ -4,6 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:system_theme/system_theme.dart';
 import 'package:flutter/services.dart';
+import 'package:share_plus/share_plus.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -232,6 +233,12 @@ class FavoritesPage extends StatelessWidget {
         ),
         for (var joke in appState.favorites)
           ListTile(
+            leading: IconButton(
+              icon: Icon(Icons.share),
+              onPressed: () {
+                Share.share(joke);
+              },
+            ),
             title: Text(joke),
             trailing: IconButton(
               icon: Icon(Icons.delete_outline, semanticLabel: 'Delete'),
