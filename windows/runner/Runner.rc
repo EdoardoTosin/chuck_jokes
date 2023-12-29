@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "chuck_jokes" "\0"
+            VALUE "CompanyName", "Edoardo Tosin" "\0"
+            VALUE "FileDescription", "Chuck Jokes" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "chuck_jokes" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "chuck_jokes.exe" "\0"
-            VALUE "ProductName", "chuck_jokes" "\0"
+            VALUE "InternalName", "Chuck Jokes" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 Edoardo Tosin. All rights reserved." "\0"
+            VALUE "OriginalFilename", "Chuck Jokes.exe" "\0"
+            VALUE "ProductName", "Chuck Jokes" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
