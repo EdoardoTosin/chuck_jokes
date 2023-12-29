@@ -42,8 +42,16 @@ class MyAppState extends ChangeNotifier {
     var client = http.Client();
     var response =
         await client.get(Uri.parse('https://api.chucknorris.io/jokes/random'));
-    var data = jsonDecode(response.body);
-    joke = data['value'] ?? '';
+    if (response.body != null && response.body.isNotEmpty) {
+      try {
+        var data = jsonDecode(response.body);
+        joke = data['value'] ?? '';
+      } catch (e) {
+        print('Failed to decode JSON: $e');
+      }
+    } else {
+      print('Empty or invalid response body');
+    }
     notifyListeners();
   }
 
