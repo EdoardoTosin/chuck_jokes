@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:system_theme/system_theme.dart';
+import 'package:flutter/services.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,6 +11,11 @@ Future<void> main() async {
   SystemTheme.onChange.listen((color) {
     debugPrint('Accent color changed to ${color.accent}');
   });
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarIconBrightness: Brightness.dark,
+    statusBarColor: Colors.transparent,
+  ));
   runApp(MyApp());
 }
 
@@ -81,7 +87,18 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarIconBrightness: Brightness.dark,
+      statusBarColor: Colors.transparent,
+    ));
     context.read<MyAppState>().fetchJoke();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
+        overlays: SystemUiOverlay.values);
   }
 
   @override
