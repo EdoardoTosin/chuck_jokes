@@ -217,7 +217,8 @@ class FavoritesPage extends StatelessWidget {
           ListTile(
             title: Text(joke),
             trailing: IconButton(
-              icon: Icon(Icons.delete),
+              icon: Icon(Icons.delete_outline, semanticLabel: 'Delete'),
+              color: Colors.red,
               onPressed: () {
                 context.read<MyAppState>().removeFromFavorites(joke);
               },
