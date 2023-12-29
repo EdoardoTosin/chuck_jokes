@@ -221,7 +221,8 @@ class FavoritesPage extends StatelessWidget {
 
     if (appState.favorites.isEmpty) {
       return Center(
-        child: Text('No favorites yet.'),
+        child: Text('No favorites yet.',
+            style: TextStyle(fontWeight: FontWeight.bold)),
       );
     }
 
@@ -229,7 +230,8 @@ class FavoritesPage extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(20),
-          child: Text('You have ${appState.favorites.length} favorites:'),
+          child: Text('You have ${appState.favorites.length} favorites:',
+              style: TextStyle(fontWeight: FontWeight.bold)),
         ),
         for (var joke in appState.favorites)
           ListTile(
