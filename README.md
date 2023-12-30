@@ -1,15 +1,15 @@
 <h1 align="center">
-  <sub>
-    <img src="assets/icon/icon.png" height="38" width="38">
-  </sub>
-  Chuck Jokes
+ <sub>
+   <img src="assets/icon/icon.png" height="38" width="38">
+ </sub>
+ Chuck Jokes
 </h1>
 
 <p align="center">
  <img src="assets/screenshot/screenshot-home.png" width="200">
-  &nbsp;&nbsp;
+ &nbsp;&nbsp;
  <img src="assets/screenshot/screenshot-favorites.png" width="200">
-  &nbsp;&nbsp;
+ &nbsp;&nbsp;
  <img src="assets/screenshot/screenshot-home-liked.png" width="200">
 </p>
 
@@ -26,24 +26,24 @@ Welcome to Chuck Jokes, a fun and exciting application developed using Flutter f
 To run this application, you need to have Flutter installed on your machine. If you haven't done so, you can download Flutter from its [official website](https://flutter.dev/). Once Flutter is installed, navigate to the root directory of the project and run the following commands:
 
 1. Clone the repository:
-  ```
-  git clone https://github.com/EdoardoTosin/chuck_jokes.git
-  ```
+ ```
+ git clone https://github.com/EdoardoTosin/chuck_jokes.git
+ ```
 
 2. Navigate to the project directory:
-  ```
-  cd chuck_jokes
-  ```
+ ```
+ cd chuck_jokes
+ ```
 
 3. Install dependencies:
-  ```
-  flutter pub get
-  ```
+ ```
+ flutter pub get
+ ```
 
 4. Run the app:
-  ```
-  flutter run --release
-  ```
+ ```
+ flutter run --release
+ ```
 
 These commands will clean up the build cache, fetch the necessary dependencies, and run the application in release mode.
 
@@ -53,7 +53,7 @@ Once the application is running, you will see a screen displaying a random Chuck
 
 ## Contributing
 
-Contributions are always welcome! Whether it's a bug report, feature request, or enhancement suggestion, feel free to open an issue or submit a pull request.
+Before contributing, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) files. They provide guidelines on how to contribute effectively to the project.
 
 ## License
 
