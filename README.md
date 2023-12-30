@@ -27,11 +27,11 @@
 </p>
 
 Welcome to Chuck Jokes, a fun and exciting application developed using Flutter for Android devices.
-This application fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/) API and displays them in a user-friendly interface. You can also save your favorite jokes and share them with others.
+This application fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/) and displays them in a user-friendly interface. You can also save your favorite jokes and share them with others.
 
 ## Features
 
-- **Random Jokes**: Fetches random Chuck Norris jokes from the chucknorris.io API.
+- **Random Jokes**: Fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/).
 - **Save Favorites**: Save your favorite jokes and access them later.
 - **Share Jokes**: Share your favorite jokes with friends and family.
 
