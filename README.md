@@ -13,9 +13,9 @@ Welcome to Chuck Jokes, a fun and exciting application developed using Flutter f
 
 ## Features
 
-* **Random Jokes**: Fetches random Chuck Norris jokes from the chucknorris.io API.
-* **Save Favorites**: Save your favorite jokes and access them later.
-* **Share Jokes**: Share your favorite jokes with friends and family.
+- **Random Jokes**: Fetches random Chuck Norris jokes from the chucknorris.io API.
+- **Save Favorites**: Save your favorite jokes and access them later.
+- **Share Jokes**: Share your favorite jokes with friends and family.
 
 ## Installation
 
@@ -24,17 +24,11 @@ Welcome to Chuck Jokes, a fun and exciting application developed using Flutter f
 To download the pre-built APKs from the releases on GitHub, follow these steps:
 
 1. Go to the [releases page](https://github.com/EdoardoTosin/chuck_jokes/releases/latest).
-
 2. Find the latest release and under the assets section, click on the APK file to download it.
-
 3. After the download completes, open your device's file manager.
-
 4. Navigate to the Downloads folder (or wherever you chose to save it).
-
 5. Locate the downloaded APK file and tap on it.
-
 6. A prompt will appear asking if you want to open the file with a package installer. Tap on "Install".
-
 7. Follow the on-screen instructions to complete the installation process.
 
 Please note that to install APKs from unknown sources, you may need to enable "Unknown sources" in your security settings. However, this is generally not recommended due to potential security risks.
@@ -48,24 +42,24 @@ Before building and installing the app, ensure that you have properly configured
 Once Flutter is installed run the following commands:
 
 1. Clone the repository:
- ```
- git clone https://github.com/EdoardoTosin/chuck_jokes.git
- ```
+```bash
+git clone https://github.com/EdoardoTosin/chuck_jokes.git
+```
 
 2. Navigate to the project directory:
- ```
- cd chuck_jokes
- ```
+```bash
+cd chuck_jokes
+```
 
 3. Install dependencies:
- ```
- flutter pub get
- ```
+```bash
+flutter pub get
+```
 
 4. Build the app:
- ```
- flutter build apk --split-per-abi --release
- ```
+```bash
+flutter build apk --split-per-abi --release
+```
 
 These commands will clean up the build cache, fetch the necessary dependencies, and run the application in release mode.
 
