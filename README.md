@@ -23,11 +23,25 @@ Welcome to Chuck Jokes, a fun and exciting application developed using Flutter f
 
 To run this application, you need to have Flutter installed on your machine. If you haven't done so, you can download Flutter from its [official website](https://flutter.dev/). Once Flutter is installed, navigate to the root directory of the project and run the following commands:
 
-```bash
-flutter clean
-flutter pub get
-flutter run --release
-```
+1. Clone the repository:
+  ```
+  git clone https://github.com/EdoardoTosin/chuck_jokes.git
+  ```
+
+2. Navigate to the project directory:
+  ```
+  cd chuck_jokes
+  ```
+
+3. Install dependencies:
+  ```
+  flutter pub get
+  ```
+
+4. Run the app:
+  ```
+  flutter run --release
+  ```
 
 These commands will clean up the build cache, fetch the necessary dependencies, and run the application in release mode.
 
