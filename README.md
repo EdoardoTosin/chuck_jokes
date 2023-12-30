@@ -1,8 +1,15 @@
-# Chuck Jokes
+<h1 align="center">
+  <sub>
+    <img src="assets/icon/icon.png" height="38" width="38">
+  </sub>
+  Silly Redirect for Zoom Meetings
+</h1>
+
+<p align="center">
+  <img src="assets/screenshot.png" width="200">
+</p>
 
 Welcome to Chuck Jokes, a fun and exciting application developed using Flutter for Android devices. This application fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/) and displays them in a user-friendly interface. You can also save your favorite jokes and share them with others.
-
-![Chuck Jokes App](assets/screenshot.png)
 
 ## Features
 
