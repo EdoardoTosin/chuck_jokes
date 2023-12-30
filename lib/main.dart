@@ -235,19 +235,25 @@ class FavoritesPage extends StatelessWidget {
         ),
         for (var joke in appState.favorites)
           ListTile(
-            leading: IconButton(
-              icon: Icon(Icons.share),
-              onPressed: () {
-                Share.share(joke);
-              },
-            ),
             title: Text(joke),
-            trailing: IconButton(
-              icon: Icon(Icons.delete_outline, semanticLabel: 'Delete'),
-              color: Colors.red,
-              onPressed: () {
-                context.read<MyAppState>().removeFromFavorites(joke);
+            trailing: PopupMenuButton<int>(
+              onSelected: (result) {
+                if (result == 0) {
+                  Share.share(joke);
+                } else if (result == 1) {
+                  context.read<MyAppState>().removeFromFavorites(joke);
+                }
               },
+              itemBuilder: (context) => [
+                PopupMenuItem(
+                  value: 0,
+                  child: Text("Share"),
+                ),
+                PopupMenuItem(
+                  value: 1,
+                  child: Text("Delete"),
+                ),
+              ],
             ),
           ),
       ],
