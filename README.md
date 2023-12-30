@@ -86,11 +86,11 @@ These commands will clean up the build cache, fetch the necessary dependencies, 
 Once the application is running, you will see a screen displaying a random Chuck Norris joke. Below the joke, there are two buttons: one to mark the joke as a favorite and another to fetch a new joke. To view your favorite jokes, tap on the 'Favorites' tab at the bottom of the screen. From there, you can delete individual jokes or share them via your preferred method.
 
 <p align="center">
- <img src="assets/screenshot/screenshot-home.png" width="200" alt="Screenshot Home">
+ <img src="assets/screenshot/screenshot-home-liked.png" width="200" alt="Screenshot Home Liked">
  &nbsp;&nbsp;
  <img src="assets/screenshot/screenshot-favorites.png" width="200" alt="Screenshot Favorites">
  &nbsp;&nbsp;
- <img src="assets/screenshot/screenshot-home-liked.png" width="200" alt="Screenshot Home Liked">
+ <img src="assets/screenshot/screenshot-home.png" width="200" alt="Screenshot Home">
 </p>
 
 ## Contributing
