@@ -6,6 +6,23 @@
 </h1>
 
 <p align="center">
+    <a href="https://github.com/EdoardoTosin/chuck_jokes/releases/latest">
+        <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/EdoardoTosin/chuck_jokes?label=Latest%20Release&style=for-the-badge"></a>
+    <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/edoardotosin/chuck_jokes/total?style=for-the-badge">
+	<a href="https://github.com/EdoardoTosin/chuck_jokes/blob/main/LICENSE">
+		<img alt="GitHub" src="https://img.shields.io/github/license/edoardotosin/chuck_jokes?style=for-the-badge"></a>
+</p>
+<!--
+<p align="center">
+    <a href="https://github.com/EdoardoTosin/chuck_jokes/releases/latest/download/chuck-norris-android-arm64-v8a-release.apk">
+    <img alt="GitHub release (latest by SemVer and asset)" src="https://img.shields.io/github/downloads/EdoardoTosin/chuck_jokes/latest/chuck-norris-android-arm64-v8a-release.apk?label=android-arm64-v8a&style=for-the-badge"></a>
+    <a href="https://github.com/EdoardoTosin/chuck_jokes/releases/latest/download/chuck-norris-android-armeabi-v7a-release.apk">
+    <img alt="GitHub release (latest by SemVer and asset)" src="https://img.shields.io/github/downloads/EdoardoTosin/chuck_jokes/latest/chuck-norris-android-armeabi-v7a-release.apk?label=android-armeabi-v7a&style=for-the-badge"></a>
+    <a href="https://github.com/EdoardoTosin/chuck_jokes/releases/latest/download/chuck-norris-android-x86_64-release.apk">
+    <img alt="GitHub release (latest by SemVer and asset)" src="https://img.shields.io/github/downloads/EdoardoTosin/chuck_jokes/latest/chuck-norris-android-x86_64-release.apk?label=android-x86_64&style=for-the-badge"></a>
+</p>
+-->
+<p align="center">
  <img src="assets/screenshot/preview.png" alt="Preview">
 </p>
 
