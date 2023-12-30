@@ -2,7 +2,7 @@
   <sub>
     <img src="assets/icon/icon.png" height="38" width="38">
   </sub>
-  Silly Redirect for Zoom Meetings
+  Chuck Jokes
 </h1>
 
 <p align="center">
