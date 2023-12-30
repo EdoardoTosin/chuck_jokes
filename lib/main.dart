@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:system_theme/system_theme.dart';
 import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,17 +63,30 @@ class MyAppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> loadFavorites() async {
+    final prefs = await SharedPreferences.getInstance();
+    final savedFavorites = prefs.getStringList('favorites') ?? [];
+    favorites = savedFavorites.toList();
+    notifyListeners();
+  }
+
   void toggleFavorite() {
     if ((joke?.isNotEmpty ?? false) && favorites.contains(joke ?? '')) {
       favorites.remove(joke ?? '');
     } else if ((joke?.isNotEmpty ?? false) && !favorites.contains(joke ?? '')) {
       favorites.add(joke ?? '');
     }
-    notifyListeners();
+    saveFavorites();
   }
 
   void removeFromFavorites(String joke) {
     favorites.remove(joke);
+    saveFavorites();
+  }
+
+  Future<void> saveFavorites() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList('favorites', favorites);
     notifyListeners();
   }
 }
@@ -84,15 +98,18 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   var selectedIndex = 0;
+  late MyAppState appState;
 
   @override
   void initState() {
     super.initState();
+    appState = Provider.of<MyAppState>(context, listen: false);
+    appState.loadFavorites();
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
       statusBarIconBrightness: Brightness.dark,
       statusBarColor: Colors.transparent,
     ));
-    context.read<MyAppState>().fetchJoke();
+    appState.fetchJoke();
   }
 
   @override
