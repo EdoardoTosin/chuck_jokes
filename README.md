@@ -49,7 +49,7 @@ To download the pre-built APKs from the releases on GitHub, follow these steps:
 6. A prompt will appear asking if you want to open the file with a package installer. Tap on "Install".
 7. Follow the on-screen instructions to complete the installation process.
 
-Please note that to install APKs from unknown sources, you may need to enable "Unknown sources" in your security settings. However, this is generally not recommended due to potential security risks.
+Please note that to install APKs from unknown sources, you may need to enable "Unknown sources" in your security settings.
 
 ### Flutter Manual Build APK
 
