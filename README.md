@@ -6,9 +6,11 @@
 </h1>
 
 <p align="center">
- <img src="assets/screenshot-home.png" width="200">
+ <img src="assets/screenshot/screenshot-home.png" width="200">
   &nbsp;&nbsp;
- <img src="assets/screenshot-favorites.png" width="200">
+ <img src="assets/screenshot/screenshot-favorites.png" width="200">
+  &nbsp;&nbsp;
+ <img src="assets/screenshot/screenshot-home-liked.png" width="200">
 </p>
 
 Welcome to Chuck Jokes, a fun and exciting application developed using Flutter for Android devices. This application fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/) and displays them in a user-friendly interface. You can also save your favorite jokes and share them with others.
