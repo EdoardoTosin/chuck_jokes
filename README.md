@@ -19,7 +19,33 @@ Welcome to Chuck Jokes, a fun and exciting application developed using Flutter f
 
 ## Installation
 
-To run this application, you need to have Flutter installed on your machine. If you haven't done so, you can download Flutter from its [official website](https://flutter.dev/). Once Flutter is installed, navigate to the root directory of the project and run the following commands:
+### Pre-built Android Release APK
+
+To download the pre-built APKs from the releases on GitHub, follow these steps:
+
+1. Go to the [releases page](https://github.com/EdoardoTosin/chuck_jokes/releases/latest).
+
+2. Find the latest release and under the assets section, click on the APK file to download it.
+
+3. After the download completes, open your device's file manager.
+
+4. Navigate to the Downloads folder (or wherever you chose to save it).
+
+5. Locate the downloaded APK file and tap on it.
+
+6. A prompt will appear asking if you want to open the file with a package installer. Tap on "Install".
+
+7. Follow the on-screen instructions to complete the installation process.
+
+Please note that to install APKs from unknown sources, you may need to enable "Unknown sources" in your security settings. However, this is generally not recommended due to potential security risks.
+
+### Flutter Manual Build APK
+
+To compile and build the APK manually from your desktop, follow these steps:
+
+To run this application, you need to have Flutter installed on your machine. If you haven't done so, you can download Flutter from its [official website](https://flutter.dev/).
+Before building and installing the app, ensure that you have properly configured your Android development environment. This includes setting up Android SDK and Android Virtual Device (AVD).
+Once Flutter is installed run the following commands:
 
 1. Clone the repository:
  ```
@@ -36,9 +62,9 @@ To run this application, you need to have Flutter installed on your machine. If 
  flutter pub get
  ```
 
-4. Run the app:
+4. Build the app:
  ```
- flutter run --release
+ flutter build apk --split-per-abi --release
  ```
 
 These commands will clean up the build cache, fetch the necessary dependencies, and run the application in release mode.
