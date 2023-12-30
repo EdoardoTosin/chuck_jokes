@@ -1,6 +1,6 @@
 <h1 align="center">
  <sub>
-   <img src="assets/icon/icon.png" height="38" width="38">
+   <img src="assets/icon/logo.png" height="38" width="38">
  </sub>
  Chuck Jokes
 </h1>
