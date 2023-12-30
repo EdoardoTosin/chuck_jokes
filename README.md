@@ -6,11 +6,7 @@
 </h1>
 
 <p align="center">
- <img src="assets/screenshot/screenshot-home.png" width="200">
- &nbsp;&nbsp;
- <img src="assets/screenshot/screenshot-favorites.png" width="200">
- &nbsp;&nbsp;
- <img src="assets/screenshot/screenshot-home-liked.png" width="200">
+ <img src="assets/screenshot/preview.png">
 </p>
 
 Welcome to Chuck Jokes, a fun and exciting application developed using Flutter for Android devices. This application fetches random Chuck Norris jokes from the [chucknorris.io API](https://api.chucknorris.io/) and displays them in a user-friendly interface. You can also save your favorite jokes and share them with others.
@@ -50,6 +46,14 @@ These commands will clean up the build cache, fetch the necessary dependencies, 
 ## Usage
 
 Once the application is running, you will see a screen displaying a random Chuck Norris joke. Below the joke, there are two buttons: one to mark the joke as a favorite and another to fetch a new joke. To view your favorite jokes, tap on the 'Favorites' tab at the bottom of the screen. From there, you can delete individual jokes or share them via your preferred method.
+
+<p align="center">
+ <img src="assets/screenshot/screenshot-home.png" width="200">
+ &nbsp;&nbsp;
+ <img src="assets/screenshot/screenshot-favorites.png" width="200">
+ &nbsp;&nbsp;
+ <img src="assets/screenshot/screenshot-home-liked.png" width="200">
+</p>
 
 ## Contributing
 
