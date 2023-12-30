@@ -35,7 +35,7 @@ jobs:
     #run: flutter test
 
    - name: Build APK
-     run: flutter build apk --split-per-abi
+     run: flutter build apk --split-per-abi --release
 
    - name: Create a Release
      uses: elgohr/Github-Release-Action@v5
