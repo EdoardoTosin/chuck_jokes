@@ -79,7 +79,7 @@ flutter pub get
 flutter build apk --split-per-abi --release
 ```
 
-These commands will clean up the build cache, fetch the necessary dependencies, and run the application in release mode.
+After build completes, APK files can be found inside `build\app\outputs\flutter-apk`.
 
 ## Usage
 
