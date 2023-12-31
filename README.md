@@ -76,10 +76,10 @@ flutter pub get
 
 4. Build the app:
 ```bash
-flutter build apk --split-per-abi --release
+flutter build apk --release
 ```
 
-After build completes, APK files can be found inside `build\app\outputs\flutter-apk`.
+After build completes, APK file can be found inside `build\app\outputs\flutter-apk`.
 
 ## Usage
 
