@@ -35,6 +35,8 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
             colorScheme: ColorScheme.fromSeed(seedColor: accent.accent),
           ),
+          darkTheme: ThemeData.dark(),
+          themeMode: ThemeMode.system,
           home: MyHomePage(),
         );
       }),
