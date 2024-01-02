@@ -38473,15 +38473,16 @@ A.AL.prototype={
 M(a){var s=A.ae(a),r=s.ax,q=this.c
 return new A.B0(r.b,new A.e0(B.jZ,A.kD(q,q,s.p3.b.tf(r.c,20)),null),null)}}
 A.Cr.prototype={
-M(a){var s,r,q,p,o,n=null,m=A.Z3(a,!0,t.zT),l=m.b.length
-if(l===0)return A.B3(A.kD("No favorites yet.",n,A.mH(n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.bo,n,n,!0,n,n,n,n,n,n,n,n)),n,n)
-l=A.a([new A.e0(B.jZ,A.kD("You have "+l+" favorites:",n,A.mH(n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.bo,n,n,!0,n,n,n,n,n,n,n,n)),n)],t.F)
-for(s=m.b,r=s.length,q=t.nT,p=0;p<s.length;s.length===r||(0,A.G)(s),++p){o=s[p]
-l.push(new A.Du(A.kD(o,n,n),new A.oA(new A.Tn(),new A.To(o,a),n,q),n))}s=A.aI([null,0],t.LO,t.S)
-r=l.length
-q=!0
-q=q?B.vZ:n
-return new A.Dv(new A.a1j(!0,!0,!0,l,s),n,B.ap,!1,n,n,q,!1,n,r,B.bm,B.Fu,n,B.aJ,n)}}
+M(a){var s,r,q,p,o,n,m=null,l=A.Z3(a,!0,t.zT),k=l.b.length
+if(k===0)return A.B3(A.kD("No favorites yet.",m,A.mH(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.bo,m,m,!0,m,m,m,m,m,m,m,m)),m,m)
+s=k===1?"favorite":"favorites"
+k=A.a([new A.e0(B.jZ,A.kD("You have "+k+" "+s+":",m,A.mH(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.bo,m,m,!0,m,m,m,m,m,m,m,m)),m)],t.F)
+for(r=l.b,q=r.length,p=t.nT,o=0;o<r.length;r.length===q||(0,A.G)(r),++o){n=r[o]
+k.push(new A.Du(A.kD(n,m,m),new A.oA(new A.Tn(),new A.To(n,a),m,p),m))}r=A.aI([null,0],t.LO,t.S)
+q=k.length
+p=!0
+p=p?B.vZ:m
+return new A.Dv(new A.a1j(!0,!0,!0,k,r),m,B.ap,!1,m,m,p,!1,m,q,B.bm,B.Fu,m,B.aJ,m)}}
 A.To.prototype={
 $1(a){var s
 if(a===0)$.alZ().lA(0,this.a,null,null)

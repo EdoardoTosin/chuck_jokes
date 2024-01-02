@@ -245,11 +245,14 @@ class FavoritesPage extends StatelessWidget {
       );
     }
 
+    String favoritesText =
+        appState.favorites.length == 1 ? 'favorite' : 'favorites';
+
     return ListView(
       children: [
         Padding(
           padding: const EdgeInsets.all(20),
-          child: Text('You have ${appState.favorites.length} favorites:',
+          child: Text('You have ${appState.favorites.length} $favoritesText:',
               style: TextStyle(fontWeight: FontWeight.bold)),
         ),
         for (var joke in appState.favorites)
